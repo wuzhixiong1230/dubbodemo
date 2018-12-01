@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/context
+          http://www.springframework.org/schema/context/spring-context-3.0.xsd
+          http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+          http://code.alibabatech.com/schema/dubbo 
+		  http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<!-- <import resource="bytejta-supports-dubbo.xml" />
+
+	<dubbo:application name="sample-provider" />
+	<dubbo:provider timeout="15000" />
+	<dubbo:consumer check="false" timeout="15000" />
+	<dubbo:protocol name="dubbo" port="20882" />
+	<dubbo:registry address="zookeeper://120.133.11.248:2181" />
+	
+	<bean id="demoService" class="prx.demo.dubbo.provider.serviceImpl.DemoServiceImpl"/>
+	
+	<dubbo:service interface="prx.sunx.dubbo.serviceApi.DemoService" ref="demoService" group="org.bytesoft.bytejta"
+		filter="transaction" loadbalance="transaction" cluster="failfast" retries="0" />
+ -->
+</beans>
