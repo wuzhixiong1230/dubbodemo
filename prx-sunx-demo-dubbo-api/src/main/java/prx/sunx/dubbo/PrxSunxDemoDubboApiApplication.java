@@ -8,5 +8,6 @@ public class PrxSunxDemoDubboApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(PrxSunxDemoDubboApiApplication.class, args);
+		
 	}
 }
